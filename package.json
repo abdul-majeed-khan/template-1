@@ -9,12 +9,55 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dropzone-ui/react": "^7.0.4",
+    "@egjs/react-grid": "^1.12.1",
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "@reduxjs/toolkit": "^1.8.6",
+    "accept-language": "^3.0.18",
+    "animate.css": "^4.1.1",
+    "apexcharts": "^3.35.5",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.2",
+    "formik": "^2.2.9",
+    "i18next": "^23.11.2",
+    "i18next-browser-languagedetector": "^7.2.1",
+    "i18next-resources-to-backend": "^1.2.1",
+    "lord-icon-element": "^3.4.4",
+    "lottie-web": "^5.12.2",
+    "next": "14.2.2",
+    "next-i18next": "^12.1.0",
+    "next-pwa": "^5.6.0",
+    "photoswipe": "^5.3.2",
+    "pigeon-maps": "^0.21.3",
     "react": "^18",
+    "react-apexcharts": "^1.4.0",
+    "react-awesome-reveal": "^4.1.0",
+    "react-content-loader": "^6.2.0",
     "react-dom": "^18",
-    "next": "14.2.2"
+    "react-dropzone-uploader": "^2.11.0",
+    "react-feather": "^2.0.10",
+    "react-i18next": "^14.1.1",
+    "react-leaflet": "^4.1.0",
+    "react-photoswipe-gallery": "^2.2.2",
+    "react-range": "^1.8.14",
+    "react-redux": "^8.0.4",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.0.8",
+    "reactstrap": "^9.1.4",
+    "sass": "^1.55.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^8.4.3",
+    "typed.js": "^2.0.12",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.2.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   }
 }
